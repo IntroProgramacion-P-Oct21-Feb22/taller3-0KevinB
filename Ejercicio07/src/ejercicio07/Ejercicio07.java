@@ -22,28 +22,23 @@ public class Ejercicio07 {
         int var4 = 10;
         int var5 = 1;
         int var6 = 100;
-        int var7 = 25;     
-        
-        double raiz1 = ((Math.sqrt(var1)2));
-        double operacion1 = ((raiz1 + var2) / 3);
+        int var7 = 25;
+
+        double raiz1 = (Math.sqrt(var1));
+        double operacion1 = ((raiz1 + var2) / var3);
         System.out.println(operacion1);
-        
+
         boolean resultado1 = operacion1 == 9;
         System.out.println(resultado1);
-        
-        boolean operacion2 = (var6 / var7 > (Math.sqrt(100)2));
-        System.out.println(operacion2);
-        
+
         boolean resultado2 = (var4 > var5);
         System.out.println(resultado2);
-        
-        boolean resultado3 = (resultado2 && operacion2);
+
+        boolean resultado3 = (var6 / var7 > Math.sqrt(var6));
         System.out.println(resultado3);
-        boolean resultado4 = (resultado1 && resultado2);
-        System.out.println(resultado4);
-        
-        boolean resultado_final = resultado1 || resultado3 ;
+
+        boolean resultado_final = (resultado1 || resultado2 && resultado3);
         System.out.println(resultado_final);
     }
-    
+
 }

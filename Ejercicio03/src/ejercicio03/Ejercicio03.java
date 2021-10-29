@@ -21,7 +21,7 @@ public class Ejercicio03 {
         int c = 20;
         int d = 1;
         int e = 11;
-        double resultado1 = (Math.pow(a, 2) + (Math.sqrt(b)2));
+        double resultado1 = (Math.pow(a, 2) + (Math.sqrt(b)));
         double resultado2 = (c / (d + e));
         System.out.println(resultado1 + resultado2);
     }

@@ -21,15 +21,19 @@ public class Ejercicio06 {
         int var3 = 3;
         int var4 = 10;
         int var5 = 1;
-        double raiz = ((Math.sqrt(var1)2));
-        double operacion = ((raiz + var2) / 3);
-        System.out.println(operacion);
-        boolean resultado1 = operacion == 9;
+        
+        double raiz1 = (Math.sqrt(var1));
+        double operacion1 = ((raiz1 + var2) / var3);
+        System.out.println(operacion1);
+
+        boolean resultado1 = operacion1 == 9;
         System.out.println(resultado1);
-        boolean resultado2 = (var4 > var1);
+
+        boolean resultado2 = (var4 > var5);
         System.out.println(resultado2);
-        boolean resultado3 = (resultado1 && resultado2);
-        System.out.println(resultado3);
+        
+        boolean resultado = resultado1 && resultado2;
+        System.out.println(resultado);
     }
 
 }
